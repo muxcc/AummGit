@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html prefix="og: http://ogp.me/ns#">
+	<head>
+		<title>Aumm Git</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Разработка, модификация и поддержка проектов." />
+		<meta name="keywords" content="web, site, хостинг, ssh, доступ, linux, seo оптимизация, dns, linux, debian, apache2, remote, control, desktop" />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="Aumm Git">
+		<meta property="og:title" content="Aumm Git&nbsp;&bull;&nbsp;Developer Sandbox" />
+		<meta property="og:description" content="Разработка, модификация и поддержка проектов." />
+		<meta property="og:url" content="https://github.aumm.ru/" />
+		<meta property="og:image" content="https://github.aumm.ru/assets/images/develop.jpg" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:creator" content="@muxcc" />
+		<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+				<header id="header">
+					<h1>Welcome, @user!</h1>
+					<p>UNIX&nbsp;administration&nbsp;&bull;&nbsp;WEB&nbsp;development&nbsp;&bull;&nbsp;SEO&nbsp;optimization</p>
+					<nav>
+						<ul>
+							<li><a href="https://vk.com/muxcc" target="_blank" class="fab fa-vk"><span class="label">Вконтакте</span></a></li>
+							<li><a href="https://github.com/muxcc" target="_blank" class="fab fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://t.me/muxcc" target="_blank" class="fab fa-telegram"><span class="label">Telegram</span></a></li>
+							<!--li><a href="mailto:tech@aumm.ru?subject=Mail from Aumm" class="fas fa-envelope-o"><span class="label">E-mail</span></a></li-->
+						</ul>
+					</nav>
+				</header>
+				<footer id="footer">
+					<span class="copyright"><a href="//aumm.ru/" target="_blank">Aumm Git</a></span>
+				</footer>
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
